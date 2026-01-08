@@ -1,5 +1,30 @@
 // --- 1. DONNÉES DES PROJETS (COMPLET : NAJO + CV) ---
 const projectsData = [
+
+    {
+        title: "VERSO Agency",
+        desc: "Co-fondation d'une agence web spécialisée dans l'ingénierie digitale haut de gamme.",
+        details: `Lancement d'une aventure entrepreneuriale avec 3 associés. 
+        <br><br>
+        <strong>VERSO</strong> est la réponse à un web saturé de sites lents et génériques. Nous concevons des expériences digitales sur-mesure pour des entreprises ambitieuses, en alliant performance technique brute et design immersif.
+        <br><br>
+        En tant que co-fondateur, je participe à la fois à la stratégie technique (choix de la stack, architecture) et au développement core.`,
+        features: [
+            "Entrepreneuriat & Gestion de projet en équipe (4 personnes)",
+            "Développement High-Perf (Next.js 14, TypeScript, Tailwind)",
+            "Design System & Identité de marque",
+            "Déploiement & Infrastructure (Vercel, Git)"
+        ],
+        tags: ["Entrepreneuriat", "Next.js", "Teamwork", "Pro"],
+        icon: "rocket", 
+        color: "linear-gradient(135deg, #3b82f6, #7c3aed)", // Dégradé Bleu -> Violet (Style Verso)
+        links: [
+
+            { text: "Voir le code", url: "https://github.com/versodirection/verso-agency.git", icon: "github" },
+            { text: "Site bientôt disponible", url: "#", icon: "loader" },
+
+        ]
+    },
     {
         title: "Najo Music Studio",
         desc: "Plateforme de streaming et studio de création musicale interactif (PWA).",
@@ -22,7 +47,7 @@ const projectsData = [
         icon: "music", 
         color: "linear-gradient(135deg, #8b5cf6, #3b82f6)", 
         links: [
-            { text: "Accéder à l'App", url: "#", icon: "external-link" }, // Ajoute le lien Vercel/Netlify ici si tu l'as
+            { text: "Accéder à l'App", url: "https://noja-6d8bf.web.app", icon: "external-link" }, // Ajoute le lien Vercel/Netlify ici si tu l'as
             { text: "Voir le code", url: "#", icon: "github" }
         ]
     },
