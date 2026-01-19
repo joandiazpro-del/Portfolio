@@ -21,7 +21,7 @@ const projectsData = [
         links: [
 
             { text: "Voir le code", url: "https://github.com/versodirection/verso-agency.git", icon: "github" },
-            { text: "Site bientôt disponible", url: "#", icon: "loader" },
+            { text: "Site bientôt disponible", url: "https://www.verso-agency.fr", icon: "loader" },
 
         ]
     },
